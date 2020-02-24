@@ -75,6 +75,9 @@ TODO:
 - some git hooks (look at what these netlify hooks do)
 - fix directory structure: make components folder, change to **styles** just look at general react styleguide (halfway done)
 - reroute admarko.xyz to admarko.co (think I can do through netlify)
+- deal with the public folder
+- deal with manifest.json (the logos in it)
+- fix logo png on main page
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 
