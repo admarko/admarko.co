@@ -69,11 +69,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 TODO:
 
-- put on netllify
+- delete old branches, just have 1 dev branch
 - protect api key
 - convert to typescript
 - some git hooks
-- fix directory structure: make components folder, change to **styles** just look at general react styleguide
+- fix directory structure: make components folder, change to **styles** just look at general react styleguide (halfway done)
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 
