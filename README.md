@@ -72,8 +72,9 @@ TODO:
 - delete old branches, just have 1 dev branch
 - protect api key
 - convert to typescript
-- some git hooks
+- some git hooks (look at what these netlify hooks do)
 - fix directory structure: make components folder, change to **styles** just look at general react styleguide (halfway done)
+- reroute admarko.xyz to admarko.co (think I can do through netlify)
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 
