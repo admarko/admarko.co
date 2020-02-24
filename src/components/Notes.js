@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import butter from "./butter-client";
+import butter from "../butter-client";
 import NoteSnippet from "./NoteSnippet";
 
 export default function Notes() {
