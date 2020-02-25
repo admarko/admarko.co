@@ -13,9 +13,7 @@ export default function Header() {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        {/* <li>
-            <Link to="/notes">Notes</Link>
-          </li> */}
+        <Link to="/notes"></Link>
       </nav>
     </header>
   );
