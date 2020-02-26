@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 25px;
+  margin-bottom: -8px;
+}

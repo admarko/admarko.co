@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import butter from "../butter-client";
 import NoteSnippet from "./NoteSnippet";
+import Footer from "./Footer";
 
 export default function Notes() {
   const [loading, setLoading] = useState(false);
@@ -48,6 +49,7 @@ export default function Notes() {
     <div>
       <h1>Notes</h1>
       {getContent()}
+      <Footer />
     </div>
   );
 }
