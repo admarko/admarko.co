@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import butter from "../butter-client";
-import NoteSnippet from "./NoteSnippet";
-import Footer from "./Footer";
-import Header from "./Header";
+import React, { useEffect, useState } from 'react';
+import butter from '../butter-client';
+import NoteSnippet from './NoteSnippet';
+import Footer from './Footer';
+import Header from './Header';
 
 export default function Notes() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState({ data: [] });
 
   const fetchPosts = async () => {
     setLoading(true);
@@ -16,11 +16,12 @@ export default function Notes() {
       const response = await butter.post.list({
         page: 1,
         page_size: 10,
-        locale: "en"
+        locale: 'en'
       });
       setData(response.data);
     } catch (e) {
-      setError(`There was an error: ${e.message}`);
+      console.log(`There was an error: ${e.message}`);
+      setError(true);
     }
     setLoading(false);
   };

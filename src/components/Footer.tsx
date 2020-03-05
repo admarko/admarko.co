@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import butterCMSLogo from "../images/butter-black.png";
+import butterCMSLogo from '../images/butter-black.png';
 
-import "./__styles__/Footer.css";
+import './__styles__/Footer.css';
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="credits">
-        Deployed on{" "}
+        Deployed on{' '}
         <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
           Netlify
-        </a>{" "}
-        with content from{" "}
+        </a>{' '}
+        with content from{' '}
         <a
           href="https://buttercms.com"
           target="_blank"
@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <div className="me">Alex Markowitz &copy; 2020</div>
       <div className="contact">
-        Contact Me:{" "}
+        Contact Me:{' '}
         <a
           href="http://www.github.com/admarko"
           target="_blank"
