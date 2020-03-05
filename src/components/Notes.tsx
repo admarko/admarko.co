@@ -7,7 +7,7 @@ import Header from "./Header";
 export default function Notes() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState({ data: [] });
 
   const fetchPosts = async () => {
     setLoading(true);
