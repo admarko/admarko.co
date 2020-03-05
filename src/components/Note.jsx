@@ -2,6 +2,7 @@ import React from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Header from "./Header";
 
 export default function Post(props) {
   const data = props.location.state;
@@ -13,6 +14,7 @@ export default function Post(props) {
 
   return (
     <div>
+      <Header />
       <div>
         <h1>{title}</h1>
         <hr />
