@@ -2,7 +2,20 @@ import React from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
 
-export default function NoteSnippet(props) {
+type author = {
+  first_name: string;
+  last_name: string;
+};
+
+type props = {
+  author: author;
+  title: string;
+  summary: string;
+  published: string;
+  slug: string;
+};
+
+export default function NoteSnippet(props: props) {
   const { title, summary, published, slug } = props;
   return (
     <div>

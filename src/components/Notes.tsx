@@ -20,7 +20,8 @@ export default function Notes() {
       });
       setData(response.data);
     } catch (e) {
-      setError(`There was an error: ${e.message}`);
+      console.log(`There was an error: ${e.message}`);
+      setError(true);
     }
     setLoading(false);
   };

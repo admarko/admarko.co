@@ -4,7 +4,19 @@ import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Post(props) {
+type location = {
+  state: any;
+};
+
+type props = {
+  title: string;
+  author: string;
+  published: string;
+  body: string;
+  location: location;
+};
+
+export default function Post(props: props) {
   const data = props.location.state;
   const { title, author, published, body } = data;
 
