@@ -8,7 +8,6 @@ export default function Header() {
     <header>
       <nav>
         <div>
-          {/* TODO: fix this */}
           <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
