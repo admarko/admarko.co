@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import butter from '../butter-client';
-import NoteSnippet from './NoteSnippet';
-import Footer from './Footer';
-import Header from './Header';
+import React, { useEffect, useState } from "react";
+import butter from "../butter-client";
+import NoteSnippet from "./NoteSnippet";
+import Footer from "./Footer";
+import Header from "./Header";
 
 export default function Notes() {
   const [loading, setLoading] = useState(false);
@@ -16,7 +16,7 @@ export default function Notes() {
       const response = await butter.post.list({
         page: 1,
         page_size: 10,
-        locale: 'en'
+        locale: "en"
       });
       setData(response.data);
     } catch (e) {
