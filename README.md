@@ -59,11 +59,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 TODO:
 
-- protect api key
-- convert to typescript
+- protect api key/more butterClient.js
+- convert app.jsx typescript
+- fix favicon
 - some git hooks (look at what these netlify hooks do)
 - reroute admarko.xyz to admarko.co (think I can do through netlify)
-- deal with the public folder
+- deal with the public folder (see what i can do about index.html)
+- move images outside of source (confirm this is ok to do in terms of build)
+- netlify toml?? — go through rest of netlify docs: https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 butter cms API reference: https://buttercms.com/docs/api/?javascript#get-multiple-pages-(single-pages)

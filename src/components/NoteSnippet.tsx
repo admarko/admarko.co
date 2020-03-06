@@ -1,6 +1,6 @@
-import React from 'react';
-import moment from 'moment';
-import { Link } from 'react-router-dom';
+import React from "react";
+import moment from "moment";
+import { Link } from "react-router-dom";
 
 type author = {
   first_name: string;
@@ -27,7 +27,7 @@ export default function NoteSnippet(props: props) {
         <div>
           By {props.author.first_name} {props.author.last_name}
         </div>
-        <span>Published on {moment(published).format('YYYY-MM-DD')}</span>
+        <span>Published on {moment(published).format("YYYY-MM-DD")}</span>
       </div>
     </div>
   );

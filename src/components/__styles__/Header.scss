@@ -1,14 +1,16 @@
-header {
+@import "./_shared.scss";
+
+.header {
   position: fixed;
   left: 0;
   top: 0;
   height: 40px;
   width: 100%;
-  background-color: bisque;
+  background-color: $bisque;
   display: flex;
   justify-content: space-between;
 }
 
-img {
+.logo {
   height: 40px;
 }

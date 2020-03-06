@@ -1,8 +1,8 @@
-import React from 'react';
-import moment from 'moment';
-import { Link } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header';
+import React from "react";
+import moment from "moment";
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import Header from "./Header";
 
 type location = {
   state: any;
@@ -32,8 +32,8 @@ export default function Post(props: props) {
         <hr />
         <div>
           <div>
-            Published by {author.first_name} {author.last_name} on{' '}
-            {moment(published).format('MMMM Do, YYYY')}
+            Published by {author.first_name} {author.last_name} on{" "}
+            {moment(published).format("MMMM Do, YYYY")}
           </div>
         </div>
         <hr />

@@ -1,12 +1,15 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import './__styles__/App.css';
-import Home from './Home';
-import Header from './Header';
-import Footer from './Footer';
-import Notes from './Notes';
-import Note from './Note';
+import Home from "./Home";
+import Header from "./Header";
+import Footer from "./Footer";
+import Notes from "./Notes";
+import Note from "./Note";
+import About from "./About";
+import Work from "./Work";
+
+import "./__styles__/App.scss";
 
 export default function App() {
   return (
@@ -16,6 +19,8 @@ export default function App() {
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/work" component={Work} />
             <Route exact path="/notes" component={Notes} />
             <Route exact path="/notes/:slug" render={Note} />
           </Switch>
