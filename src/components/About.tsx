@@ -1,8 +1,8 @@
-import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
-import './__styles__/About.scss';
+import "./__styles__/About.scss";
 
 export default function About() {
   return (

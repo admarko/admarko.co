@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Home from './Home';
-import Notes from './Notes';
-import Note from './Note';
-import About from './About';
-import Work from './Work';
+import Home from "./Home";
+import Notes from "./Notes";
+import Note from "./Note";
+import About from "./About";
+import Work from "./Work";
 
-import './__styles__/App.scss';
+import "./__styles__/App.scss";
 
 export default function App() {
   return (
