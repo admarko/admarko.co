@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "es6",
     "module": "esnext",
-    "lib": ["dom", "es6", "es2017"],
+    "lib": [
+      "dom",
+      "es6",
+      "es2017"
+    ],
     "moduleResolution": "node",
     "allowJs": true,
     "strict": true,
@@ -18,5 +22,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

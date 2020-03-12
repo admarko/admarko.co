@@ -37,7 +37,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache --color \"./src/**/*.*(js|ts|jsx|tsx)\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -66,7 +67,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && npm run lint"
     }
   }
 }

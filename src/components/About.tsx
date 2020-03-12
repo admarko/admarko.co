@@ -9,7 +9,11 @@ export default function About() {
     <div>
       <Header />
       <div>
-        <h1>About</h1>
+        <h1>About me </h1>
+      </div>
+      <div className="mainContent">
+        <div>img</div>
+        <div>content </div>
       </div>
       <Footer />
     </div>
