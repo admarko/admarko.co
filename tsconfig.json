@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "incremental": false,
-    "noEmit": true,
+    "noEmit": false,
     "outDir": "./tsbuild",
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true

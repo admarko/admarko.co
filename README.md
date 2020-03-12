@@ -66,6 +66,8 @@ TODO:
 - reroute admarko.xyz to admarko.co (think I can do through netlify)
 - deal with the public folder (see what i can do about index.html)
 - move images outside of source (confirm this is ok to do in terms of build)
+- import formatter (isort for frontend)
+- bring all meta tags over
 - netlify toml?? — go through rest of netlify docs: https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
