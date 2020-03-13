@@ -1,6 +1,36 @@
 @import "./_shared.scss";
 
-.mainConent {
+.aboutTitle {
+  border: 1px solid blue;
+  text-align: left;
+  padding: $title-padding;
+}
+
+.mainContent {
   display: flex;
-  justify-items: flex-start;
+  flex-direction: row;
+  border: 1px solid red;
+  justify-content: space-evenly;
+}
+
+.face {
+  width: 200px;
+  border: 1px solid green;
+}
+
+.aboutInfo {
+  border: 1px solid purple;
+  text-align: right;
+  width: 500px;
+}
+
+.technologies {
+  padding: 30px 0px 0px 150px;
+  // margin: 0px;
+  text-align: left;
+}
+
+.devicons {
+  background-color: black;
+  border: 0px;
 }
