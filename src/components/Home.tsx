@@ -4,7 +4,7 @@ import "./__styles__/Home.scss";
 
 export default function Home() {
   return (
-    <article>
+    <div className="home">
       <h1>I&rsquo;ll be back soon!</h1>
       <div>
         <p>
@@ -15,6 +15,6 @@ export default function Home() {
         </p>
         <p>&mdash; Alex</p>
       </div>
-    </article>
+    </div>
   );
 }
