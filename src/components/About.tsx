@@ -41,8 +41,7 @@ export default function About() {
           <i className="devicon-backbonejs-plain colored"></i>
           <i className="devicon-jquery-plain colored"></i>
           <i className="devicon-less-plain-wordmark colored"></i>
-
-          {/* CircleCI, Selenium, octopus deploy */}
+          {/* Find Icons: Azure, CircleCI, Selenium, octopus deploy */}
         </div>
         Others I've used academically:
         <div className="devicons">
@@ -52,9 +51,9 @@ export default function About() {
           <i className="devicon-rails-plain colored"></i>
           <i className="devicon-d3js-plain colored"></i>
           <i className="devicon-gitlab-plain colored"></i>
-          {/* Elm, Racket */}
+          {/* Find Icons: Elm, Racket */}
         </div>{" "}
-        {/* Ones I want: Dart, Sqift, MongoDB,  */}
+        {/* Ones I want to learn: Dart, Sqift, MongoDB, raspberryPi */}
       </div>
       <Footer />
     </div>
