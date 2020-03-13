@@ -16,11 +16,11 @@ export default function Notes() {
       const response = await butter.post.list({
         page: 1,
         page_size: 10,
-        locale: "en"
+        locale: "en",
       });
       setData(response.data);
     } catch (e) {
-      console.log(`There was an error: ${e.message}`);
+      console.log(`There was an error: ${e.message}`); // eslint-disable-line no-console
       setError(true);
     }
     setLoading(false);
@@ -34,7 +34,8 @@ export default function Notes() {
     return (
       <div>
         {data.data.map((post, i) => (
-          <NoteSnippet {...post} key={i} />
+          // eslint-disable-next-line react/no-array-index-key
+          <NoteSnippet {...post} key={`Post ${i}`} /> // eslint-disable-line react/jsx-props-no-spreading
         ))}
       </div>
     );

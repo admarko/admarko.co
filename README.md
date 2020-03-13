@@ -70,6 +70,7 @@ TODO:
 - bring all meta tags over from admarko.xyz
 - netlify toml?? — go through rest of netlify docs: https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
 - fix Index.scss
+- cleanup all eslint-disable lines
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 butter cms API reference: https://buttercms.com/docs/api/?javascript#get-multiple-pages-(single-pages)

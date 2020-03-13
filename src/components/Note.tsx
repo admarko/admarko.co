@@ -17,7 +17,7 @@ type props = {
 };
 
 export default function Post(props: props) {
-  const data = props.location.state;
+  const { data } = props.location.state;
   const { title, author, published, body } = data;
 
   function createMarkup() {
@@ -37,6 +37,7 @@ export default function Post(props: props) {
           </div>
         </div>
         <hr />
+        {/* eslint-disable-next-line  react/no-danger */}
         <div dangerouslySetInnerHTML={createMarkup()} />
         <hr />
         <Link to="/notes">&larr; Back to the posts list</Link>

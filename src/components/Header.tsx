@@ -14,7 +14,7 @@ export default function Header() {
             <img src={logo} alt="logo" className="logo" />
           </Link>
         </div>
-        <Link to="/notes"></Link>
+        <Link to="/notes" />
       </nav>
     </div>
   );
