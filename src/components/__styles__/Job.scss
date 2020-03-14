@@ -2,9 +2,20 @@
 
 .job {
   border: solid 1px red;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  text-align: left;
 }
 
 .company {
-  text-align: left;
   font-size: 24px;
+}
+
+.description {
+  text-align: left;
+  font-size: 16px;
 }

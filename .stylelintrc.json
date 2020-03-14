@@ -4,6 +4,11 @@
     "indentation": 2,
     "number-leading-zero": null,
     "font-weight-notation": "numeric",
-    "string-quotes": null
+    "string-quotes": null,
+    "order/properties-alphabetical-order": false,
+    "color-named": false,
+    "scss/at-import-no-partial-leading-underscore": false,
+    "scss/at-import-partial-extension-blacklist": false,
+    "length-zero-no-unit": false
   }
 }
