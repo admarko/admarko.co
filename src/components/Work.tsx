@@ -27,7 +27,7 @@ export default function Work() {
   return (
     <div>
       <Header />
-      <div className="workTitle">
+      <div className="work-title">
         <h1>Work</h1>
       </div>
       {jobs.map(job => (

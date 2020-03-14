@@ -1,12 +1,12 @@
 @import "./_shared.scss";
 
-.aboutTitle {
+.about-title {
   border: 1px solid blue;
   text-align: left;
   padding: $title-padding;
 }
 
-.mainContent {
+.main-content {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
@@ -18,7 +18,7 @@
   border: 1px solid green;
 }
 
-.aboutInfo {
+.about-info {
   border: 1px solid purple;
   text-align: right;
   width: 500px;
@@ -31,5 +31,4 @@
 
 .devicons {
   background-color: black;
-  border: 0px;
 }
