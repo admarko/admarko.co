@@ -34,7 +34,7 @@ export default function About() {
           <i className="devicon-sass-original colored" />
           <i className="devicon-github-plain colored" />
         </div>
-        Others I've used professionally:
+        Others I&rsquo;ve used professionally:
         <div className="devicons">
           <i className="devicon-docker-plain colored" />
           <i className="devicon-amazonwebservices-original colored" />
@@ -43,7 +43,7 @@ export default function About() {
           <i className="devicon-less-plain-wordmark colored" />
           {/* Find Icons: Azure, CircleCI, Selenium, octopus deploy */}
         </div>
-        Others I\'ve used academically:
+        Others I&rsquo;ve used academically:
         <div className="devicons">
           <i className="devicon-c-line colored" />
           <i className="devicon-java-plain colored" />
