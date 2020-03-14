@@ -24,9 +24,11 @@ export default function Job(props: props) {
         <div className="location"> {location}</div>
       </div>
       <div className="description">
-        {description.map((bullet, i) => (
-          <ul key={i}>{bullet}</ul>
-        ))}
+        <ul>
+          {description.map(bullet => (
+            <li key={bullet}>{bullet}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
