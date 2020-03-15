@@ -1,11 +1,12 @@
 @import "./_shared.scss";
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: $dark-blue;
+  background-color: $brown-grey;
+  color: black;
   display: flex;
   justify-content: space-between;
 }

@@ -69,6 +69,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## post-release:
 
+- dark mode
+- make it go faster: https://web.dev/
 - import formatter (isort for frontend)
 - turn header into hamburger thing
 - convert app.jsx typescript
@@ -79,6 +81,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - cleanup all eslint-disable lines
 - have about + work pages pull from butter
 - download resume (pdf) from work page
+- add to developer portfolio: https://github.com/emmabostian/developer-portfolios
 
 original site setup: https://buttercms.com/blog/cms-integration-how-to-add-a-blog-into-existing-site
 butter cms API reference: https://buttercms.com/docs/api/?javascript#get-multiple-pages-(single-pages)
