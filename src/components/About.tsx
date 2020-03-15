@@ -31,7 +31,7 @@ export default function About() {
           <span className="path">~/Desktop/Projects/admarko.co</span> on{" "}
           <span className="branch">dev*</span>
         </div>
-        > Technologies.filter(key="favorites")
+        &gt; Technologies.filter(key= &quot;favorites&quot;)
         <div className="devicons">
           <i className="devicon-python-plain colored" />
           <i className="devicon-django-plain" />
@@ -43,7 +43,7 @@ export default function About() {
           <i className="devicon-sass-original colored" />
           <i className="devicon-github-plain" />
         </div>
-        > Technologies.filter(location="work")
+        &gt; Technologies.filter(location= &quot;work&quot;)
         <div className="devicons">
           <i className="devicon-docker-plain colored" />
           <i className="devicon-amazonwebservices-original colored" />
@@ -52,7 +52,7 @@ export default function About() {
           <i className="devicon-less-plain-wordmark" />
           {/* Find Icons: Azure, CircleCI, Selenium, octopus deploy */}
         </div>
-        > Technologies.filter(location="school")
+        &gt; Technologies.filter(location= &quot;school&quot;)
         <div className="devicons">
           <i className="devicon-c-line" />
           <i className="devicon-java-plain colored" />
@@ -62,7 +62,7 @@ export default function About() {
           <i className="devicon-gitlab-plain colored" />
           {/* Find Icons: Elm, Racket */}
         </div>
-        > Technologies.filter(has_icon=False)
+        &gt; Technologies.filter(has_icon=False)
         <div className="devicons">
           <div>Elm</div>
           <div>Racket</div>
