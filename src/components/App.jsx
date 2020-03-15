@@ -11,7 +11,7 @@ import "./__styles__/App.scss";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <BrowserRouter>
         <main>
           <Switch>

@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="credits">
         Deployed on{" "}
         <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
-          <img src={netlifyLogo} alt="Netlify" className="netlifyLogo" />
+          <img src={netlifyLogo} alt="Netlify" className="netlify-logo" />
         </a>{" "}
         with content from{" "}
         <a
@@ -21,7 +21,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={butterLogo} alt="ButterCMS" className="butterLogo" />
+          <img src={butterLogo} alt="ButterCMS" className="butter-logo" />
         </a>
       </div>
       <div className="me">Alex Markowitz &copy; 2020</div>

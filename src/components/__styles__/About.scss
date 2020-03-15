@@ -1,7 +1,6 @@
 @import "./_shared.scss";
 
 .about-title {
-  border: 1px solid blue;
   text-align: left;
   padding: $title-padding;
 }
@@ -9,26 +8,60 @@
 .main-content {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
   justify-content: space-evenly;
 }
 
 .face {
-  width: 200px;
-  border: 1px solid green;
+  width: 400px;
+}
+
+.hello {
+  text-align: left;
+  font-size: $subtitle-text;
 }
 
 .about-info {
-  border: 1px solid purple;
-  text-align: right;
+  text-align: left;
   width: 500px;
+  line-height: 40px;
 }
 
-.technologies {
-  padding: $title-padding;
+.about-technologies {
+  background-color: black;
+  border: 1px solid white;
+  font-family: monospace;
+  color: $terminal-green;
+  margin: 50px 0px;
+  width: 900px;
   text-align: left;
+  font-size: $middle-text;
+  display: inline-block;
+}
+
+.terminal-header {
+  color: white;
+  padding: 10px 0px;
+}
+
+.name {
+  color: red;
+}
+
+.path {
+  color: green;
+}
+
+.branch {
+  color: purple;
 }
 
 .devicons {
-  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 50em;
+  padding-bottom: 10px;
+}
+
+i {
+  font-size: 28px;
 }
