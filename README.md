@@ -57,21 +57,26 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-TODO:
+### TODO:
+
+## pre-release:
 
 - protect api key/more butterClient.js
-- convert app.jsx typescript
-- fix favicon
-- some git hooks (look at what these netlify hooks do)
+- bring all meta tags over from admarko.xyz
+- fix Index.scss
 - reroute admarko.xyz to admarko.co (think I can do through netlify)
+- cleanup README
+
+## post-release:
+
+- import formatter (isort for frontend)
+- turn header into hamburger thing
+- convert app.jsx typescript
+- some git hooks (look at what these netlify hooks do)
 - deal with the public folder (see what i can do about index.html)
 - move images outside of source (confirm this is ok to do in terms of build)
-- import formatter (isort for frontend)
-- bring all meta tags over from admarko.xyz
 - netlify toml?? — go through rest of netlify docs: https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
-- fix Index.scss
 - cleanup all eslint-disable lines
-- cleanup README
 - have about + work pages pull from butter
 - download resume (pdf) from work page
 

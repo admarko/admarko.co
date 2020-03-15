@@ -7,15 +7,16 @@ import "./__styles__/Header.scss";
 
 export default function Header() {
   return (
-    <div className="header">
-      <nav>
-        <div>
-          <Link to="/">
-            <img src={logo} alt="logo" className="logo" />
-          </Link>
-        </div>
-        <Link to="/notes" />
-      </nav>
-    </div>
+    <nav className="header">
+      <div>
+        <Link to="/">
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
+      </div>
+      <div className="links">
+        <Link to="/work"> Work </Link>
+        <Link to="/about">About </Link>
+      </div>
+    </nav>
   );
 }

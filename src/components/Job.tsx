@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import * as Solid from "@fortawesome/free-solid-svg-icons";
 import "./__styles__/Job.scss";
 
 type props = {
@@ -21,7 +22,9 @@ export default function Job(props: props) {
         </div>
         <div className="title"> {title}</div>
         <div className="dates"> {dates}</div>
-        <div className="location"> {location}</div>
+        <div className="location">
+          {location} <FontAwesomeIcon icon={Solid.faMapMarkerAlt} />
+        </div>
       </div>
       <div className="description">
         <ul>

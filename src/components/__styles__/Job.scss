@@ -1,18 +1,43 @@
 @import "./_shared.scss";
 
 .job {
-  border: solid 1px red;
-  margin: 50px;
+  margin: 70px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.job:hover {
+  border: 1px solid red;
 }
 
 .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
+  border-bottom: 1px solid black;
 }
 
 .company {
-  font-size: 24px;
+  font-size: 28px;
+  width: 290px;
+}
+
+.title {
+  width: 400px;
+  font-size: 20px;
+}
+
+.dates {
+  padding-left: 20px;
+  width: 180px;
+  font-size: 16px;
+}
+
+.location {
+  width: 130px;
+  text-align: right;
+  font-size: 16px;
 }
 
 .description {
