@@ -61,6 +61,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## pre-release:
 
+- fix link not scrolling to top
+- add animation on front page
 - protect api key/more butterClient.js
 - reroute admarko.xyz to admarko.co (think I can do through netlify)
 - cleanup README
