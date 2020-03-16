@@ -1,11 +1,12 @@
 import React from "react";
 import Typing from "react-typing-animation";
-import Header from "./Header";
-
-import "./__styles__/Home.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Brands from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
+
+import Header from "./Header";
+
+import "./__styles__/Home.scss";
 
 export default function Home() {
   return (
