@@ -2,7 +2,7 @@
 
 //  box animation from: https://tobiasahlin.com/blog/how-to-animate-box-shadow/
 .job {
-  margin: 40px 70px;
+  margin: 40px 180px; //so it doesn't conflict with nav links
   flex-direction: column;
   padding: 5px;
   background-color: $modal-blue;
@@ -46,19 +46,9 @@
 
 .company {
   font-size: 36px;
-  width: 350px;
-}
-
-a {
-  color: $white;
-}
-
-a:hover {
-  color: $header-pink;
 }
 
 .title {
-  width: 400px;
   font-size: 20px;
 }
 
@@ -69,7 +59,7 @@ a:hover {
 
 .description {
   text-align: left;
-  font-size: $body-text;
+  font-size: 24px; //$body-text;
   padding-left: 100px;
 }
 

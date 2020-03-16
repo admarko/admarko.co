@@ -25,13 +25,14 @@ export default function Footer() {
         </a>
       </div>
       <div className="me">Alex Markowitz &copy; 2020</div>
-      <div className="contact">
+      <div className="footer-contact">
         Contact me: <FontAwesomeIcon icon={faAt} size="xs" />
         admarko on{" "}
         <a
           href="http://www.github.com/admarko"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faGithub} />
         </a>
@@ -39,6 +40,7 @@ export default function Footer() {
           href="mailto:admarko@gmail.com?Subject=admarko.xyz"
           target="_top"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faGoogle} />
         </a>
@@ -46,6 +48,7 @@ export default function Footer() {
           href="http://www.linkedin.com/in/admarko"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faLinkedinIn} />
         </a>
@@ -53,6 +56,7 @@ export default function Footer() {
           href="http://www.instagram.com/admarko"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faInstagram} />
         </a>
@@ -60,6 +64,7 @@ export default function Footer() {
           href="http://www.facebook.com/admarko"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faFacebookF} />
         </a>
@@ -67,6 +72,7 @@ export default function Footer() {
           href="https://www.snapchat.com/add/admarko"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer-icons"
         >
           <FontAwesomeIcon icon={Brands.faSnapchatGhost} />
         </a>

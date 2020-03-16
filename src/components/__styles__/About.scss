@@ -15,7 +15,7 @@
   width: 400px;
 }
 
-.hello {
+.about-hello {
   text-align: left;
   font-size: $subtitle-text;
 }
@@ -24,6 +24,7 @@
   text-align: left;
   width: 500px;
   line-height: 40px;
+  font-size: 24px;
 }
 
 .about-technologies {
@@ -31,7 +32,7 @@
   border: 1px solid white;
   font-family: monospace;
   color: $terminal-green;
-  margin: 50px 0px;
+  margin: 90px 0px;
   width: 900px;
   text-align: left;
   font-size: $middle-text;

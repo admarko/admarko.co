@@ -5,7 +5,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: $brown-grey;
+  background-color: $bisque; //$brown-grey;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -19,4 +19,8 @@
 .netlify-logo {
   height: 21px;
   margin-bottom: -4px;
+}
+
+.footer-icons {
+  color: black;
 }
