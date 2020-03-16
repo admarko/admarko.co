@@ -9,7 +9,7 @@ import "./__styles__/About.scss";
 export default function About() {
   const infoHeader = "Hello! My name is Alex 👋 ";
   const info =
-    "I am a software engineer based in New York City. As a full-stack developer, I enjoy building user-focused products end-to-end: from the database layer to the frontend components. I'm a recent graduate of the University of Chicago where I studied Computer Science. I currently work at Managed by Q. Feel free to reach out anytime!";
+    "I am a software engineer based in New York City. As a full-stack developer, I enjoy building user-focused products end-to-end, from the database layer to the frontend components. I'm a recent graduate of the University of Chicago where I studied Computer Science. I currently work at Managed by Q. Feel free to reach out anytime!";
   return (
     <div>
       <Header />
@@ -21,7 +21,7 @@ export default function About() {
         <img src={Face} className="face" alt="" />
         {/* </div> */}
         <div>
-          <h2 className="hello">{infoHeader}</h2>
+          <h2 className="about-hello">{infoHeader}</h2>
           <div className="about-info">{info}</div>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function About() {
           <span className="path">~/Desktop/Projects/admarko.co</span> on{" "}
           <span className="branch">dev*</span>
         </div>
-        &gt; Technologies.filter(key= &quot;favorites&quot;)
+        &gt; Technologies.filter(is_favorite=True)
         <div className="devicons">
           <i className="devicon-python-plain colored" />
           <i className="devicon-django-plain" />
@@ -43,7 +43,7 @@ export default function About() {
           <i className="devicon-sass-original colored" />
           <i className="devicon-github-plain" />
         </div>
-        &gt; Technologies.filter(location= &quot;work&quot;)
+        &gt; Technologies.filter(location=&quot;work&quot;)
         <div className="devicons">
           <i className="devicon-docker-plain colored" />
           <i className="devicon-amazonwebservices-original colored" />
@@ -52,7 +52,7 @@ export default function About() {
           <i className="devicon-less-plain-wordmark" />
           {/* Find Icons: Azure, CircleCI, Selenium, octopus deploy */}
         </div>
-        &gt; Technologies.filter(location= &quot;school&quot;)
+        &gt; Technologies.filter(location=&quot;school&quot;)
         <div className="devicons">
           <i className="devicon-c-line" />
           <i className="devicon-java-plain colored" />

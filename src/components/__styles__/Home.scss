@@ -1,21 +1,39 @@
-h1 {
-  font-size: 50px;
-}
+@import "./_shared.scss";
 
 .home {
   padding: 150px;
   display: block;
-  text-align: left;
+  text-align: center;
   width: 650px;
   margin: 0 auto;
 }
 
-a {
-  color: #dc8100;
-  text-decoration: none;
+.home-hello {
+  text-align: center;
+  font-family: $body-font;
+  font-size: 30px;
 }
 
-a:hover {
-  color: #333;
-  text-decoration: none;
+.home-name {
+  padding-top: 20px;
+  font-family: $header-font, serif;
+  color: $header-pink;
+  font-size: 50px;
+  // text-shadow: 1px 1px 1px black; // will fix once colors are finalized
+}
+
+hr {
+  width: 80%;
+}
+
+.home-contact {
+  padding-top: 50px;
+  font-family: $body-font;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.home-icons {
+  font-size: 30px;
+  padding: 100px 5px;
 }

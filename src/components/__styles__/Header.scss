@@ -6,7 +6,7 @@
   top: 0;
   height: 40px;
   width: 100%;
-  background-color: $brown-grey;
+  // background-color: $header-pink; // keeping transparent for now
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,10 +17,11 @@
   height: 40px;
 }
 
-.links {
-  margin-right: 20px;
+.header-links {
+  margin-right: 10px;
 }
 
-link {
-  padding-left: 200px;
+.link {
+  font-size: 24px;
+  padding-left: 20px;
 }
