@@ -90,8 +90,8 @@ export default function Work() {
       ))}
       <div className="resume">
         <a
-          href={process.env.PUBLIC_URL + "/AlexMarkowitz_Resume.pdf"}
-          download={process.env.PUBLIC_URL + "/AlexMarkowitz_Resume.pdf"}
+          href={`${process.env.PUBLIC_URL}/AlexMarkowitz_Resume.pdf`}
+          download={`${process.env.PUBLIC_URL}/AlexMarkowitz_Resume.pdf`}
         >
           <strong>Resume</strong> <FontAwesomeIcon icon={faDownload} />
         </a>
