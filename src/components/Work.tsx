@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+
 import Footer from "./Footer";
 import Header from "./Header";
 import Job from "./Job";
@@ -85,6 +88,14 @@ export default function Work() {
           technologies={job.technologies}
         />
       ))}
+      <div className="resume">
+        <a
+          href={process.env.PUBLIC_URL + "/AlexMarkowitz_Resume.pdf"}
+          download={process.env.PUBLIC_URL + "/AlexMarkowitz_Resume.pdf"}
+        >
+          <strong>Resume</strong> <FontAwesomeIcon icon={faDownload} />
+        </a>
+      </div>
       <Footer />
     </div>
   );
